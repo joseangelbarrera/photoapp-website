@@ -1,6 +1,45 @@
-// ensures that as the viewport gets smaller
-// any media will scale down according
-// to its containers width
+
+// * {border: 1px solid red;}
+
+body > strong > strong > div > footer > div > div > div.col-md-6.col-sm-7.col-xs-12.greyBackground > ul > li:nth-child(3) > a:hover{ 
+color: gray;
+}
+
+
+body > strong > strong > div > footer > div > div > div.col-md-6.col-sm-7.col-xs-12.greyBackground > ul > li:nth-child(2) > a:hover{ 
+color: gray;
+}
+
+
+
+body > strong > strong > div > footer > div > div > div.col-md-6.col-sm-7.col-xs-12.greyBackground > ul > li:nth-child(1) > a:hover{ 
+color: gray;
+}
+
+
+
+body > strong > strong > div > footer > div > div > div.col-md-6.col-sm-7.col-xs-12.greyBackground > ul > li:nth-child(4) > a:hover { 
+color: gray;
+}
+
+
+
+body > strong > strong > div > footer > div > div > div.col-md-6.col-sm-5.col-xs-12.greyBackground.lrigth > ul > li > a:hover {
+  color: gray;
+}
+
+.space {
+    margin-bottom: 20px;
+}
+
+.pagetitle {
+    color: white;
+    height: 80px;
+    margin-bottom: 30px;
+    padding-bottom: 20px;
+    background-color: #1caa98;
+}
+
 @media screen and (max-width: 767px) {
     body > div.jumbotron.cover.col-md-12.col-lg-12.col-sm-12 > div > div > div.col-md-6.\2e col-lg-6.\2e col-sm-12 > p {
         text-align: center;
@@ -69,7 +108,6 @@ body {
     padding: 0px;
 }
 
-// quit space:
 .jumbotron {
     padding-top: 48px;
     padding-bottom: 0px;
@@ -80,7 +118,7 @@ body {
     background-repeat: no-repeat;
     background-color: black;
     background-size: cover;
-    background-position: center
+    background-position: center;
 }
 
 .icons {
@@ -89,12 +127,6 @@ body {
     justify-content: space-around;
 }
 
-// .iconsasrow {
-//     margin: 0 auto;
-//     display: inline-flex;
-//     flex-direction: colum;
-//     justify-content: space-around;
-// }
 .paddingicons {
     padding-top: 20px;
     padding-bottom: 40px;
@@ -122,11 +154,11 @@ body {
 }
 
 div.row.greyBackground > div > ul > li > a {
-    color: white
+    color: white;
 }
 
 div.col-md-3.col-sm-5.col-xs-12.greyBackground > ul > li > a {
-    color: white
+    color: white;
 }
 
 a [href^="#Copyright"] {
@@ -134,7 +166,7 @@ a [href^="#Copyright"] {
 }
 
 footer a#Copyright {
-    color: white
+    color: white;
 }
 
 body > div.container > div > div:nth-child(1n) > div > div > img {
@@ -155,10 +187,10 @@ li {
     color: white;
 }
 
-// this photo icon is centered because the margin is auto
-// if we put this .phot off the icon will be alligned rigth into de box.
 .testallscreen {
     display: flex;
 }
 
-// # sourceMappingURL=styles.css.map
+
+
+/*# sourceMappingURL=styles.css.map */
